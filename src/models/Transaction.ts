@@ -21,7 +21,7 @@ class Transaction {
   @Column('enum')
   type: 'income' | 'outcome';
 
-  @Column('integer')
+  @Column('decimal')
   value: number;
 
   @Column()
